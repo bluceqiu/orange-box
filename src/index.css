@@ -13,6 +13,7 @@ body {
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
+  overflow: scroll;
 }
 
 code {
@@ -20,9 +21,11 @@ code {
     monospace;
 }
 
-html, body, #root, .page{
+html, body, #root{
   height: 100%;
+  overflow: hidden;
 }
+
 
 .site-page-header {
   border: 1px solid rgb(235, 237, 240);

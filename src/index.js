@@ -1,28 +1,26 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown'
 import ReactDOM from 'react-dom';
-import './index.css';
-import 'antd/dist/antd.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Menu from './components/Menu';
 import { PageHeader } from 'antd';
-
-const gfm = require('remark-gfm')
-
+import { BrowserRouter as Router } from "react-router-dom";
+import './index.css';
+import 'antd/dist/antd.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <ReactMarkdown plugins={[gfm]} children={art} /> */}
     <PageHeader
       className="site-page-header"
       onBack={() => null}
-      title="Title"
-      subTitle="This is a subtitle"
+      backIcon={false}
+      title="筆記"
     />
     <div className='page'>
-      <Menu />
-      <App />
+      <Router>
+        <Menu />
+        <App />
+      </Router>
     </div>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,4 +1,3 @@
-export default `
 
 # domReady与onload 的区别
 domReady 其实就是DOMContentLoaded
@@ -11,6 +10,3 @@ domReady 其实就是DOMContentLoaded
 
 ## 结论
 - DOMContentLoaded 要早于 onload的执行
-
-
-`
