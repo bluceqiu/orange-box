@@ -1,0 +1,1 @@
+export default path => <div onClick={() => console.log('1')}>{path}</div>
