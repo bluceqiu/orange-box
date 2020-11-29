@@ -4,6 +4,7 @@
   overflow: scroll;
   padding: 50px 300px;
   box-sizing: border-box;
+  /* position: relative; */
 }
 
 .App-logo {
