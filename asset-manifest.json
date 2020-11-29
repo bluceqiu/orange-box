@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/orange-box/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/orange-box/static/js/main.3d47ca06.chunk.js",
-    "main.js.map": "/orange-box/static/js/main.3d47ca06.chunk.js.map",
-    "runtime-main.js": "/orange-box/static/js/runtime-main.59f6434d.js",
-    "runtime-main.js.map": "/orange-box/static/js/runtime-main.59f6434d.js.map",
-    "static/js/2.d56b41bb.chunk.js": "/orange-box/static/js/2.d56b41bb.chunk.js",
-    "static/js/2.d56b41bb.chunk.js.map": "/orange-box/static/js/2.d56b41bb.chunk.js.map",
-    "static/js/3.04f8fe43.chunk.js": "/orange-box/static/js/3.04f8fe43.chunk.js",
-    "static/js/3.04f8fe43.chunk.js.map": "/orange-box/static/js/3.04f8fe43.chunk.js.map",
+    "main.css": "/orange-box/static/css/main.b82804ff.chunk.css",
+    "main.js": "/orange-box/static/js/main.9eb3aca5.chunk.js",
+    "main.js.map": "/orange-box/static/js/main.9eb3aca5.chunk.js.map",
+    "runtime-main.js": "/orange-box/static/js/runtime-main.15c4636c.js",
+    "runtime-main.js.map": "/orange-box/static/js/runtime-main.15c4636c.js.map",
+    "static/css/2.076c56d8.chunk.css": "/orange-box/static/css/2.076c56d8.chunk.css",
+    "static/js/2.95d6a35e.chunk.js": "/orange-box/static/js/2.95d6a35e.chunk.js",
+    "static/js/2.95d6a35e.chunk.js.map": "/orange-box/static/js/2.95d6a35e.chunk.js.map",
     "index.html": "/orange-box/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/orange-box/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.d56b41bb.chunk.js.LICENSE.txt": "/orange-box/static/js/2.d56b41bb.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/orange-box/static/media/logo.6ce24c58.svg"
+    "static/css/2.076c56d8.chunk.css.map": "/orange-box/static/css/2.076c56d8.chunk.css.map",
+    "static/css/main.b82804ff.chunk.css.map": "/orange-box/static/css/main.b82804ff.chunk.css.map",
+    "static/js/2.95d6a35e.chunk.js.LICENSE.txt": "/orange-box/static/js/2.95d6a35e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.59f6434d.js",
-    "static/js/2.d56b41bb.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.3d47ca06.chunk.js"
+    "static/js/runtime-main.15c4636c.js",
+    "static/css/2.076c56d8.chunk.css",
+    "static/js/2.95d6a35e.chunk.js",
+    "static/css/main.b82804ff.chunk.css",
+    "static/js/main.9eb3aca5.chunk.js"
   ]
 }
