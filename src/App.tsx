@@ -6,11 +6,9 @@ import CodeBlock from './components/CodeBlock.jsx';
 import './App.css';
 import Nav from './components/Nav.jsx';
 
-import 阿里某次面试题 from './docs/阿里某次面试题.md';
-import domReady与onload from './docs/domReady与onload.md';
+import routes from './docs/index';
 
-
-const gfm = require('remark-gfm')
+// const gfm = require('remark-gfm')
 
 const RMD = (source: string) => (
   <ReactMarkdown renderers={{
@@ -18,24 +16,28 @@ const RMD = (source: string) => (
   }} skipHtml={true} children={source} />
 );
 
-const navFn = (source: string) => (
-  <Nav source={source} />
-  // 不能缩写为source
+const navFn = (key: string) => (
+  <Nav source={key} />
 )
 
 function App() {
   return (
     <div className="App">
-      <Switch>
-        <Route exact path="/domReady与onload">
-          {RMD(domReady与onload)}
-          {navFn(domReady与onload)}
-        </Route>
-        <Route exact path='/阿里某次面试题'>
-          {RMD(阿里某次面试题)}
-          {navFn(阿里某次面试题)}
-        </Route>
-      </Switch>
+      <div className='content-wrapper'>
+        <Switch>
+          {
+            Object.keys(routes).map((key, index) => {
+              console.log(key);
+              return (
+                <Route exact path={'/' + key} key={key}>
+                  {RMD(routes[key as keyof typeof routes])}
+                  {navFn(key)}
+                </Route>
+              )
+            })
+          }
+        </Switch>
+      </div>
     </div>
   );
 }

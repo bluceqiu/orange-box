@@ -4,8 +4,8 @@ import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
 // 设置高亮样式
 import { xonokai } from "react-syntax-highlighter/dist/esm/styles/prism";
 // 设置高亮的语言
-import { jsx, javascript, sass, scss } from "react-syntax-highlighter/dist/esm/languages/prism";
-import language from "react-syntax-highlighter/dist/esm/languages/hljs/1c";
+import { jsx, javascript } from "react-syntax-highlighter/dist/esm/languages/prism";
+// import language from "react-syntax-highlighter/dist/esm/languages/hljs/1c";
 
 // interface ICodeBlockProp {
 //   language: string,
